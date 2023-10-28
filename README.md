@@ -25,6 +25,7 @@ Deze sprint staat toegangelijk voor aan. We gaan verder met de client website va
 
 ## Bronnen
 * https://www.a11yproject.com/
+* https://www.semrush.com/blog/semantic-html5-guide/
 
 ## Licentie
 
