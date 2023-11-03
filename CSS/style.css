@@ -1,0 +1,65 @@
+*
+
+.logo{
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+
+}
+
+.menu {
+    max-width: 50px;
+}
+
+/* styling section "favoriete" */
+.favoriete{
+    background-color: #FBF6F0 ;
+    display: grid;
+    grid-template-columns: 2fr, 2fr, .5fr;
+    grid-template-rows: 1fr, .5fr, 3fr, 2fr;
+}
+
+.favoriete img[src="/assets/it ends with us.jpeg"] {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.favoriete h2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.favoriete .genre{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: pink;
+}
+
+.favoriete h3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.favoriete p{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.favoriete button{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    rotate: 90deg;
+    /* max-height: 10px; */
+}
