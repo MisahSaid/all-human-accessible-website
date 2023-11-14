@@ -1,4 +1,6 @@
-*
+*{
+    gap: 1em;
+}
 
 .logo{
     margin: 0 auto;
@@ -16,14 +18,14 @@
     background-color: #FBF6F0 ;
     display: grid;
     grid-template-columns: 2fr, 2fr, .5fr;
-    grid-template-rows: 1fr, .5fr, 3fr, 2fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 3fr;
 }
 
 .favoriete img[src="/assets/it ends with us.jpeg"] {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 6;
 }
 
 .favoriete h2{
@@ -51,15 +53,31 @@
 .favoriete p{
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
 .favoriete button{
     grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
     rotate: 90deg;
     /* max-height: 10px; */
+}
+
+/* end styling favoriete */
+
+/* start styling "reverseringen" */
+.reserveren{
+    display: grid;
+    grid-template-columns: 3fr, 1fr, 3fr, 1fr;
+    grid-template-rows: 1fr, 1fr 4fr;
+    background-color: green ;
+}
+.reserveren img[src="/assets/hoe overleef ik cover.jpeg"] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
